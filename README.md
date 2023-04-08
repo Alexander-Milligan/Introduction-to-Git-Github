@@ -17,7 +17,7 @@
     <p>Once all components are installed please follow these step.</p>
     <p>1. Create a folder by typing mkdir in to git bash and then cd in to that folder.</p>
     <p>2. Create a file by typing echo hello > filename.txt.</p>
-    <p>3. Now type <samp style="color: #000">"git config --global user.name "yourname" " this is setting the workspace/folder with a git user name.</p>
+    <p>3. Now type <samp style="color: #cc0">"git config --global user.name "yourname" "</samp> this is setting the workspace/folder with a git user name.</p>
     <p>4. Now type "git config --global user.email "youremail@gmail.com" " this is setting the workspace/folder with a git user email.</p>
     <p>5. Type "git init" and your folder's name: The git init command initializes a new git repository.</p> 
     <p>6. Type "git add" and your file's name: The git add command adds a change in the working directory and to the staging area.</p>
