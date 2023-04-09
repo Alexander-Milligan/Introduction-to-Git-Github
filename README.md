@@ -159,13 +159,10 @@
         <p>This happens due to a syncing error, the pull command on the master branch and merging the local after this syncs the repositories back to equal stats.</p>
  
 
-
-
 <h1>Module Seven:  Pull, Edit, Push Assessment</h1>
     <h2>Assessment Brief</h2>
-    <p>For this assessment you are required to setup a remote repository and 
-    upload a text file saying hello. You are then required to create a branch named assessment and pull that branch to your local and edit the file to say hello world, then push the file back up to the remote branch and merge the master with the assessment branch.</p>
-    <p>Completed: https://github.com/Alexander-Milligan/Assessment-Seven.git</p>
+    <p>For this assessment you will need to create a new repository named ModuleSeven, you are then required to pull this repository(https://github.com/Alexander-Milligan/ModuleSevenFolder.git)in to your repository and edit the readme to say Hello Module Seven. Save the file and add, commit and push the folder and file to your repository.</p>
+   <p> Assessment Completion Link:</p>
 
 <h1>Module Eight:  Open Source Edit Assessment</h1>
     <h2>Assessment Brief</h2>
@@ -174,7 +171,9 @@
     to your folder and edit one of its file. 
     You are then asked to create a repo on github and push the changed project to your repo. 
    </p>
-   <p>Completed: https://github.com/Alexander-Milligan/ModuleEight.git</p>
+   <p> Assessment Completion Link:</p>
+ 
+
    
    <h2>Commands: Helper</h2>
         <p>1. git config --global core.editor "code --wait" = </p>
