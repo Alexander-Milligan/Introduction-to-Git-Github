@@ -2,8 +2,8 @@
     <h2>Status</h2>
         <p>The git status command is one of the most used commands as it allows you to view the stage you are at and the file stage, such as Mfile.txt is modified or Dfile.txt means file has been deleted. There are a number of flags for the command that are very helpful, like status -s = status short: this will give a short output within columns and has flags RED and green colour coding such as the M AND D mentioned before.</p>
         <p>Green M = Modified and staged</p>
-        <p>Green A = files that have just been added.</p>
         <p>Red D = files that have been deleted.</p>
+        <p>Green A = files that have just been added.</p>
         <p>If texted is coloured orange then this means that the branch is be hide or in front of the remote and cyan means the branch matches its remote.</p>
     <h2>Gitignore File</h2>
         <p>The gitignore file is used to tell git to ignore certain file types. You can tell git to ignore folders as well as files, where this helps with security throughout the project.</p>
