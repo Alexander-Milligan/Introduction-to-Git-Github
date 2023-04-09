@@ -162,16 +162,15 @@
 <h1>Module Seven:  Pull, Edit, Push Assessment</h1>
     <h2>Assessment Brief</h2>
     <p>For this assessment you will need to create a new repository named ModuleSeven, you are then required to pull this repository(https://github.com/Alexander-Milligan/ModuleSevenFolder.git)in to your repository and edit the readme to say Hello Module Seven. Save the file and add, commit and push the folder and file to your repository.</p>
-   <p> Assessment Completion Link:</p>
+   <p>Assessment Completion Link: https://github.com/Alexander-Milligan/ModuleSeven.git</p>
 
 <h1>Module Eight:  Open Source Edit Assessment</h1>
     <h2>Assessment Brief</h2>
-    <p>For this assessment you are required to setup a local folder with a git repo in it. 
-    You are the asked to find a git project that you like and pull that project through the command line in
-    to your folder and edit one of its file. 
-    You are then asked to create a repo on github and push the changed project to your repo. 
+    <p>For this assessment you are required to setup a local folder with a git repo in it named ModuleEightProject. 
+    You are then asked to find a git project that you like and pull that project through the command line in
+    to your folder and edit one of its file, you are then asked to push the new repository to github. 
    </p>
-   <p> Assessment Completion Link:</p>
+   <p>Assessment Completion Link: https://github.com/Alexander-Milligan/ModuleEightProject.git</p>
  
 
    
