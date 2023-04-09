@@ -10,5 +10,7 @@
             <p>git add "directory path": this will stage a specific directory or file, you need to have a file within the folder as git will not allow an empty folder to be push with out a file, for tracking logs.<p>
             <p>git rm filename is used to remove files or changes that are in the staging area.</p>
             <p>git rm --chached filename will remove the file from the staging area only, this may need -r after rm for folders.</p>
-    <h2>The Four Stages within git</h2>
-        <p>Creation, Modification, Refactoring, and Deletion</p>
+        <h2>The Four Stages of git</h2>
+            <p>The creation stage is the first and can be seen as the untracked work directory.
+            <p>The modification stage is next and can be seen as the tracked work directory.</p>
+            <p>The refactoring is the staging area within git and can be seen as the discusion stage.<p>The Deletion stage is after all project files and git branches are uptodate and merged you can then delete the sub branch with no data loss.</p>
