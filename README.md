@@ -108,63 +108,57 @@
             
             
 <h1>Module Five: Push, Merge, Pull & Fetch</h1>
-    <h2>Push Request</h2>
-        <p>Description: The git push command is used to upload local repository content to a remote repository.</p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-    <h2>Pull Request</h2>
+    <h2>Push</h2>
+        <p>Description: The git push command is used to upload local repository content to a remote repository. The git push command can be seen as a syncing command and a fetch and pull can be seen as a download command.</p>
+        <p>The default push command is "git push -u origin main"
+        <p>git push -u origin "BranchName": This command will push any changes from the local repository to the remote repository branch.</p>
+        <p>git push "remote url" "BranchName": This command will push any changes from the local repository to the remote repository branch.</p>
+        <p>git push --all: This command will push any changes from the local repository to the remote repository branch as long as the command comes from the command line within the directory and branch.</p>
+        <p>git branch -D branch_name: This will delete a branch on the remote.</p>
+    <h2>Pull</h2>
         <p>Description: The git pull command is used to download content from your remote repository and will update your local repository. This command is two commands in one, a fetch and a merge.</p>
         <p>Commands:</p>
-    <p><samp>git pull</samp></p>
-    <p><samp>git pull remote  </samp></p>
+        <p>git pull</p>
+        <p>git pull remote</p>
         <p>Fetch the specified remotes copy of the current branch and immediately merge it into the local copy</p>
-        
-<p><samp>git pull --no-commit remote </samp></p>
+        <p>git pull --no-commit remote </p>
         <p></p>
-
-<p><samp>git pull --no-commit remote </samp></p>
-        <p>integrate the remote branch with the local</p>
-    
-<p><samp>git push -u origin master</samp></p>
-        <p>This will push your files to the master branch.</p>
-
-<p><samp>git pull --rebase</samp></p>
-        <p>This will integrate the remote branch with the local branch.</p>
-
-<p><samp>git switch BranchName</samp></p>
+        <p>git pull --no-commit remote: This will integrate the remote branch with the local</p>    
+        <p>git pull --rebase: This is a method of combining your local unpublished changes with the latest published changes</p>
+        <p>git switch BranchName</p>
         <p>This will switch branches.</p>
-
-<h2>Fetch Request</h2>
+    <h2>Fetch Request</h2>
         <p>Description: Git fetch will download the remote repository.</p>
-        <p></p>  
-<h2>Merge Request</h2>
-        <p>Description: Git merge requests merges the branch with the main branch.</p>
-        <p></p>
+        <p>Git fetch is a more safer way to get the remote files from a repository than git pull due to the fact that it does not change any of the files in the process.</p>
+        <p>git pull = git fetch + git merge.</p> 
+        <p>The default command is: "git fetch remote-url" </p> 
+    <h2>Merge Request</h2>
+        <p>Description: Git merge requests will join all development histories together from one branch to another or the main branch.</p>
+        <p>The git merge command can give you the power to merge specific area of the development.</p>
+        <p>The default comand: "git merge"</p>
+   
 
 
 <h1>Module Six:  History Error Assessment</h1>
     <h2>Assessment Brief</h2>
-        <p>This assessment is based of a git main(default) branch and a master branch, where the master branch has three comment history’s more than the main branch and the main branch has a change that was not committed.</p>
+        <p>This assessment is based on a git main(default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed. You are asked to type out step base on how to render this error and match up the histories.</p>
     <h2>Catalyst :</h2> 
-        <p>This problem accords mainly when an editor is used to commit and the a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to coz a history lag and then a commit error.  </p>
-    <h2>Rendering and Steps</h2>
+        <p>This problem accords mainly when an text editor is used to commit and the a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
+    <h2>Rendering Steps</h2>
         <p>The first step to render this error is to check that your remote master is up to date, if not then try pushing your master branch.</p>
-        
-<p>If this fails it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
-
-<p>The last step was to push the updated master branch on the local to the remote master.</p>
-<p>Once this was complete and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
+        <p>This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
+        <p>The last step was to push the updated master branch on the local to the remote master.</p>
+        <p>Once this was completed and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
     <h2>Command Path</h2>
-        <p>git pull</p>
-        <p>git pull master</p>
+        <p>git pull master url</p>
         <p>git merge</p>
         <p>git add *</p>
         <p>git commit - m "comment"</p>
         <p>git push -u origin master</p>
-    <h2>Conclusion:</h2>
-    <p>This happens due to a syncing error, the pull command on the master branch and merging the local after this syncs the repositories back up.</p>
+    <h2>Conclusion :</h2>
+        <p>This happens due to a syncing error, the pull command on the master branch and merging the local after this syncs the repositories back to equal stats.</p>
+ 
+
 
 
 <h1>Module Seven:  Pull, Edit, Push Assessment</h1>

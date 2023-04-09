@@ -32,5 +32,5 @@
         <h2>The Four Stages within git</h2>
             <p>Creation, Modification, Refactoring, and Deletion</p>+ 
         <h2>The Four Stages of git</h2>
-            <p>The creation stage is the first and can be seen as the untracked work directory.
+            <p>The creation stage is the first and can be seen as the untracked work directory.</p>
 
