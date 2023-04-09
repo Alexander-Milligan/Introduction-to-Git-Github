@@ -46,36 +46,47 @@
 
             
             
-<h1>Module Three: gitignore file & Status</h1>
-    <h2>Gitignore file</h2>
-        <p>To create the file type "echo gitignore > gitignore" with no extension.</p>
-        <p>To ignore folders type "foldername"</p>
-        <p>To ignore files type filename and extension.</p>
-        <p>To ignore all file type *.txt or extension you want to ignore.</p>
-        <p># = a comment within the ignore file.</p>
-        <p> echo newtext >> filename.txt >> = appending.</p>
-        <p>git mv filename = move command and can be used to rename files too = rm filename.txt newfilename.txt <p>
+<h1>Module Three:  Git Status & Gitignore file</h1>
     <h2>Status</h2>
-        <p>Status -s =  status short: this will give a short output within columns and has flags RED and green colour coding.</p>
+        <p>The git status command is one of the most used commands as it allows you to view the stage you are at and the file stage, such as Mfile.txt is modified or Dfile.txt means file has been deleted. There are a number of flags for the command that are very helpful, like status -s = status short: this will give a short output within columns and has flags RED and green colour coding such as the M AND D mentioned before.</p>
         <p>Green M = Modified and staged</p>
-        <p>Green A = add</p>
-        <p>git diff --staged = this will show the changes within the files within the staged area.</p>
-        <p></p>
+        <p>Red D = files that have been deleted.</p>
+        <p>Green A = files that have just been added.</p>
+        <p>If texted is coloured orange then this means that the branch is be hide or in front of the remote and cyan means the branch matches its remote.</p>
+    <h2>Gitignore File</h2>
+        <p>The gitignore file is used to tell git to ignore certain file types. You can tell git to ignore folders as well as files, where this helps with security throughout the project.</p>
+        <p>To create the gitignore file type "echo gitignore > gitignore" with no extension.</p>
+        <p>To ignore folders type "foldername" within the gitignore file.</p>
+        <p>To ignore files type filename and extension.</p>
+        <p>To ignore all file types you can type "*.txt" or the file extension you want to ignore.</p>
+        <p>If you place a # before any text in the ignore file it will be seen as a comment within the ignore file. </p>
+        <p>In the command line you can type "echo newtext >> filename.txt" and it will append the file, this is due to the >> symbol which means appending.</p>
+        <p>The "git mv filename" command is used to move files and can be used to rename files "rm filename.txt newfilename.txt".<p>
+    <h2>Module Three Assessment: Create a Gitignore File</h2>
+        <h3>Assessment Brief</h3>
+            <p>In this assessment you are required to create a file named FileOne.md through the git bash command line, you are then asked to create a gitignore file through the command line as well. You will then type the line you need to ignore the FileOne.md in the gitignore file; after this is complete you will add, commit and then push to the remote main branch.</p>
+            <p>You’re commit comments will be used to view completion so make sure to be clear on your comment.</p>
 
 <h1>Module Four: Diff Tools & Viewing History</h1>
     <h2>Diff Tools</h2>
-        <p>git config --global diff.tool "your text editor"= this will set your text editor to open with diff commands.</p>
+    <p>The git diff tool is used to compare staged files with the remote files to see the changes in a one screen view.</p>
+        <p>Typing git config --global diff.tool "your text editor" will set your text editor to open with diff commands.</p>
         <p>git config --global difftool.vscode.cmd = sets the cmd file to open.</p>
-        <p>git config --global difftool.vscode.cmd "code --wait"</p>
-        <p>git config --global difftool.vscode.cmd "code --wait --diff = this tell git we want to use it for diff files.</p>
+        <p>git config --global difftool.vscode.cmd "code --wait" this command will stop git from processing your changes before you are finish editing.</p>
+        <p>git config --global difftool.vscode.cmd "code --wait --diff this set git vs code for diff files.</p>
         <p>git config --global difftool.vscode.cmd "code --wait --diff $LOACL $REMOTE" = Placeholders for copies of new files.</p>
     <h2>Viewing History</h2>
-        <p>git log = will show a history of commits.</p>
-        <p>git log --online = will show a history of the repository’s online commits.</p>
-        <p>git show HEAD~1 = This is one step back within the comments.</p>
-        <p>A blob = files</p>
-        <p>A tree = folders</p>
-        <p>git clean -fd = Undo local changes f = files d = directorys.</p> 
+        <p>Checking your branch commit history can be very helpful and is used some time to help project to move forward and not double check areas.</p>
+        <p>"git log" will show a history of all the commits on that branch.</p>
+        <p>"git log --online" will show a history of the repository’s online commits.</p>
+        <p>"git show HEAD~1" this is one step back within the commit history.</p>
+        <p>Git sometimes uses other terms for objects such as a blob meaning a file and a tree meaning folder also being able to undo your last changes can be carried out by typing "git clean -fd" and this will undo local changes, the f means file and the d means directory.</p>
+    <h2>Module Four Assessment: Display your third commit log.</h2>
+        <h3>Assessment Brief</h3>
+            <p>You are required to create a file named Thirdcommit.md and place the log history from the third commit comment inside it. You are then asked to add it, commit it and then push it to the main branch, make sure you comment on this commit is clear on its purpose.</p>
+
+
+        
             
             
 <h1>Module Five: Push, Merge, Pull & Fetch</h1>
