@@ -171,30 +171,6 @@
     to your folder and edit one of its file, you are then asked to push the new repository to github. 
    </p>
    <p>Assessment Completion Link: https://github.com/Alexander-Milligan/ModuleEightProject.git</p>
- 
-
-   
-   <h2>Commands: Helper</h2>
-        <p>1. git config --global core.editor "code --wait" = </p>
-        <p>git config --global -e = this will open gitconfig.</p>
-        <p>End of length = </p>
-        <p>System = all users</p>
-        <p>Global = all repositories of the user</p>
-        <p>Local =  The current repository’s</p>
-        <p>git reflog = short logs</p>
-        <p>create a new repository on the command line
-            echo "# Repo" >> README.md
-            git init
-            git add README.md
-            git commit -m "first commit"
-            git branch -M main
-            git remote add origin https://github.com/Alexander-Milligan/Repo.git
-            git push -u origin main
-        </p>
-        <p>…or push an existing repository from the command line
-            git remote add origin https://github.com/Alexander-Milligan/Repo.git
-            git branch -M main
-            git push -u origin main</p>
 
 </div>
 
