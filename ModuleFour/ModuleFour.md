@@ -29,8 +29,5 @@
         <p>git rm filename is used to remove files or changes that are in the staging area.</p>
         <p>git rm --chached filename will remove the file from the staging
         area only, this may need -r after rm for folders.</p>
-        <h2>The Four Stages within git</h2>
-            <p>Creation, Modification, Refactoring, and Deletion</p>+ 
-        <h2>The Four Stages of git</h2>
-            <p>The creation stage is the first and can be seen as the untracked work directory.</p>
+        
 

@@ -98,10 +98,7 @@
         <p>git rm filename is used to remove files or changes that are in the staging area.</p>
         <p>git rm --chached filename will remove the file from the staging
         area only, this may need -r after rm for folders.</p>
-        <h2>The Four Stages within git</h2>
-            <p>Creation, Modification, Refactoring, and Deletion</p>+ 
-        <h2>The Four Stages of git</h2>
-            <p>The creation stage is the first and can be seen as the untracked work directory.</p>
+        
 
 
         
@@ -143,7 +140,7 @@
     <h2>Assessment Brief</h2>
         <p>This assessment is based on a git main(default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed. You are asked to type out step base on how to render this error and match up the histories.</p>
     <h2>Catalyst :</h2> 
-        <p>This problem accords mainly when an text editor is used to commit and the a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
+        <p>This problem accords mainly when an text editor is used to commit and then a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
     <h2>Rendering Steps</h2>
         <p>The first step to render this error is to check that your remote master is up to date, if not then try pushing your master branch.</p>
         <p>This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
