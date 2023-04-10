@@ -173,5 +173,7 @@
    <p>Assessment Completion Link: https://github.com/Alexander-Milligan/ModuleEightProject.git</p>
 
 </div>
-
+<div class="header">
+    <div class="logo"><img src="IGG-Certificate.png"/></div>
+</div>
 
