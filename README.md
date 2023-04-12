@@ -3,11 +3,11 @@
     <div class="logo"><img src="Logo.png"/></div>
 </div>
 <div class="Container">
-<h1>Module One: What Git is & Setting Git Up</h1>
+<h1 style="color:blue;">Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer file to be tracked for changes, this allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>Git was created in 2005 by Linus Torvalds, who also created Linux and the Linux kernel, git does not have any specific coding language so very coder friendly.</p>
 
-<h2>Installation Requirement</h2>
+<h2 style="color:red;">Installation Requirement</h2>
 <p>In this module you will be required to setup a working environment that entails installation of git and git bash, a github account and logged in to that account along with a text editor of your choice.</p>
 
 <h2>Module Brief</h2>
