@@ -1,4 +1,4 @@
-<img src="Readme.svg"/>
+<img src="Readme.svg" />
 <div class="header">
     <div class="logo"><img src="Logo.png"/></div>
 </div>
