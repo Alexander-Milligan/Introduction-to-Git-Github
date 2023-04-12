@@ -1,13 +1,25 @@
-<head>
-<style>
-h1 {
-    color: blue;
-}
-</style>
-</head>
 <div class="header">
     <div class="logo"><img src="Logo.png"/></div>
 </div>
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+                .container {
+					margin: 0;
+					width: 100%;
+					height: 400px;
+				}
+				h1 {
+					font-size: 36px;
+					line-height: 1.3;
+					letter-spacing: 5px;
+				}
+				p {
+					font-size: 9px;
+				}
+			</style>
+
 <div class="Container">
 <h1>Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer file to be tracked for changes, this allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
@@ -180,3 +192,6 @@ h1 {
     <div class="logo"><img src="IGG-Certificate.png"/></div>
 </div>
 
+</div>
+</foreignObject>
+</svg>
