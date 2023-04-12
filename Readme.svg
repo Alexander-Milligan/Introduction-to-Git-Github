@@ -14,19 +14,14 @@
         }
       </style>
 
-      <div class="header">
+<div class="header">
     <div class="logo"><img src="Logo.png"/></div>
 </div>
-<div class="Container">
-<h1 style="color: #0E0350">Module One: What Git is & Setting Git Up</h1>
+<div class="container">
+<h1>Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
 <p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hens why half the world’s companies are using it to create their projects.</p>
-
-
-
-
-
 
 
 <h2>Installation Requirement</h2>
@@ -39,7 +34,7 @@
     <p>Once all components are installed please follow these step.</p>
     <p>1. Create a folder by typing mkdir in to git bash and then cd in to that folder.</p>
     <p>2. Create a file by typing echo hello > filename.txt.</p>
-    <p>3. Now type <samp style="color: #cc0">"git config --global user.name "yourname" "</samp> this is setting the workspace/folder with a git user name.</p>
+    <p>3. Now type <samp>"git config --global user.name "yourname" "</samp> this is setting the workspace/folder with a git user name.</p>
     <p>4. Now type "git config --global user.email "youremail@gmail.com" " this is setting the workspace/folder with a git user email.</p>
     <p>5. Type "git init" and your folder's name: The git init command initializes a new git repository.</p> 
     <p>6. Type "git add" and your file's name: The git add command adds a change in the working directory and to the staging area.</p>
