@@ -20,7 +20,7 @@
 				}
 			</style>
 
-<div class="Container">
+<div class="container">
 <h1>Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer file to be tracked for changes, this allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>Git was created in 2005 by Linus Torvalds, who also created Linux and the Linux kernel, git does not have any specific coding language so very coder friendly.</p>
@@ -192,6 +192,5 @@
     <div class="logo"><img src="IGG-Certificate.png"/></div>
 </div>
 
-</div>
 </foreignObject>
 </svg>
