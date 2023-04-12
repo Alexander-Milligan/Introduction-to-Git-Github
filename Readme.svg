@@ -5,19 +5,17 @@
         .container {
           display: flex;
           width: 100%;
-          background-color: #000;
-        }
-        h1 {
-          width: 100%;
+          height: 300px;
+          background-color: black;
           color: white;
-          size: 36px;
         }
       </style>
 
-<div class="header">
-    <div class="logo"><img src="Logo.png"/></div>
-</div>
-<div class="container">
+      <div class="container">
+        <div class="header">
+            <div class="logo"><img src="Logo.png"/></div>
+        </div>
+
 <h1>Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
@@ -187,9 +185,8 @@
    <p>Assessment Completion Link: https://github.com/Alexander-Milligan/ModuleEightProject.git</p>
 
 </div>
-<div class="header">
-    <div class="logo"><img src="IGG-Certificate.png"/></div>
-</div>
-    
+
+      
+    </div>
   </foreignObject>
 </svg>
