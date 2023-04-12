@@ -1,9 +1,10 @@
-
+<head>
 <style>
 h1 {
     color: blue;
 }
 </style>
+</head>
 <div class="header">
     <div class="logo"><img src="Logo.png"/></div>
 </div>
