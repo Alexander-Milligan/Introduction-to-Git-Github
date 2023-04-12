@@ -1,15 +1,3 @@
-
-<div class="header">
-    <div class="logo"><img src="Logo.png"/></div>
-</div>
-<div class="Container">
-<h1 style="color: #0E0350">Module One: What Git is & Setting Git Up</h1>
-<p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
-<p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
-<p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hens why half the world’s companies are using it to create their projects.</p>
-
-
-
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -29,6 +17,18 @@
     </div>
   </foreignObject>
 </svg>
+<div class="header">
+    <div class="logo"><img src="Logo.png"/></div>
+</div>
+<div class="Container">
+<h1 style="color: #0E0350">Module One: What Git is & Setting Git Up</h1>
+<p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
+<p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
+<p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hens why half the world’s companies are using it to create their projects.</p>
+
+
+
+
 
 
 
