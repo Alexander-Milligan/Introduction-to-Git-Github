@@ -3,11 +3,36 @@
     <div class="logo"><img src="Logo.png"/></div>
 </div>
 <div class="Container">
-<h1 style="color: #0E0350">>Module One: What Git is & Setting Git Up</h1>
-<p>Git is a Version Control System (VCS) that allows computer file to be tracked for changes, this allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
-<p>Git was created in 2005 by Linus Torvalds, who also created Linux and the Linux kernel, git does not have any specific coding language so very coder friendly.</p>
+<h1 style="color: #0E0350">Module One: What Git is & Setting Git Up</h1>
+<p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
+<p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
+<p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hens why half the world’s companies are using it to create their projects.</p>
 
-<h2 style="color: #3522AD">Installation Requirement</h2>
+
+
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          display: flex;
+          width: 100%;
+          height: 300px;
+          background-color: black;
+          color: white;
+        }
+      </style>
+
+      <div class="container">
+        <h1>Hi there, my name is Nikola 👋</h1>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
+
+
+
+<h2>Installation Requirement</h2>
 <p>In this module you will be required to setup a working environment that entails installation of git and git bash, a github account and logged in to that account along with a text editor of your choice.</p>
 
 <h2>Module Brief</h2>
