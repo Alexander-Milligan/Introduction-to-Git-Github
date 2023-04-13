@@ -38,8 +38,7 @@
     <p>12. Type git push –u origin master, this will push your repo to the github remote.</p>
     <p>13. Go to your Github account and look for the new repository to ensure everything is uploaded correctly.</p>
 
-<h2>Conclusion</h2>
-    <p>Once all steps had been followed the folder and a file where created I then edited the file, I then pushed and merged. Through carrying out these step a number of times there where little coding hits that I found very important, lines that help me a lot are "git status(obviously), git remote -v" and remembering that if I don’t "git commit -m "Comment" then nothing will be pushed from the staging area as it is empty. This is an easy task but for someone that is not normalised to git it can take some time to visualize the process.</p>
+
 
 <h1>Module Two: Workflow & Staging</h1>
     <h2>Non-linear Workflow</h2>
@@ -183,6 +182,10 @@ Being able to undo your last changes is always helpful and can be carried out by
     <h2>Assessment Brief</h2>
     <p>For this assessment you are required to setup a folder named ModuleEight with a readme file. You are then asked to find a git project that you like and pull that project through the command line into your folder and edit one of its file, you will then push the folder to your repository. </p>
    <p>It is advised to keep your choice of project small.</p>
+
+
+<h2>Course Completion Steps</h2>
+<p>Once all modules have been completed please send your github repository url to SaltireCourses@gmail.com, where your course will be evaluated and marked. You one be contacted within two weeks of sending your course link and you will get your certificate of completion as well.</p>
 
 </div>
 <div class="header">
