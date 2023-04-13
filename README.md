@@ -3,6 +3,12 @@
     <div class="logo"><img src="Logo.png"/></div>
 </div>
 <div class="container">
+<h1>Course Summary</h1>
+<p>This course will take the user through an introduction to git and github, the course covers the history, purpose, workflow and functions of using git and github. The course has been designed and created to give the user the knowledge and capability to create and interact with their repository on Github.</p>
+
+<p>The course will teach and run the user through using git commands to push, pull, merge, fetch, add, commit and get the status of the stage the files/folders are in at that point. The course has been referenced from Traversy Media, programmingwithmosh and overlaid with a github lab learning beginner’s course.</p>
+
+
 <h1>Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
