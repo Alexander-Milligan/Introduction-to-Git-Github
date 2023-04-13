@@ -15,12 +15,12 @@
 <h2>Module One Assessment: Course Folder Setup</h2>
 <h3>Assessment Brief</h3>
 <p>You are required to follow the steps below to create a repository named “IGG-yourname” along with a file named “CourseLayout.md” and copy the following texted in to that file.</p>
-<samp>"<h1>Introduction to Git & Github: Your name here</h1>
+
+<samp><h1>Introduction to Git & Github: Your name here</h1>
 <h2>Course Assessment Layout</h2>
 <p>This repository is set up to store the assessment results for completing the ICC course.</p>
 <samp>1. Module One: What Git is & Setting Git Up</samp> 
-<p>By this readme being setup and here stats that the assessment was followed and complered.</p>
-"</samp>
+<p>By this readme being setup and here stats that the assessment was followed and complered.</p></samp>
 
 <h2>Steps</h2>
     <p>Once all installation requirements have been met please follow these steps. </p>
@@ -39,24 +39,20 @@
     <p>13. Go to your Github account and look for the new repository to ensure everything is uploaded correctly.</p>
 
 <h2>Conclusion</h2>
-    <p>Onnce all step have been carried out I had my first repository with a folder and a file within that folder. Through carrying out these step a number of times there where little code hits that are very handy to know if anything goes wrong, one of the most important lines that help me a lot was "git status(obviously), git remote -v" and remembering that if I don’t "git commit -m "Comment" then nothing will be pushed. This is an easy task but for someone that is not normalised to git it can take some time to visuilize the proccess.</p>
+    <p>Once all steps had been followed the folder and a file where created I then edited the file, I then pushed and merged. Through carrying out these step a number of times there where little coding hits that I found very important, lines that help me a lot was "git status(obviously), git remote -v" and remembering that if I don’t "git commit -m "Comment" then nothing will be pushed from the staging area as it is empty. This is an easy task but for someone that is not normalised to git it can take some time to visualize the process.</p>
 
 <h1>Module Two: Workflow & Staging</h1>
-    <h2>Workflow</h2>
-        <p>A Git workflow is a suggestion/recipe for how a team will use Git to achieve working on a project in a consistent way with a with more functionality and productivity.</p>
-        <p>With the option of creating single branches for individuals to work on the main project and then discus gives any project that is carried out in git is instantly given an error checking and development area before any merges to the master project.</p>
+    <h2>Non-linear Workflow</h2>
+        <p>A git workflow is a suggestion/recipe for how a team will use Git to achieve working on a project in a consistent way with more functionality and productivity. </p>
+        <p>With the option of creating single branches for individuals to work on the main project and then discus gives any project that is carried out in git is instantly given an error checking and development stage before any merges to the master project.</p>
     <h2>Staging</h2>
-        <p>The main command to stage a file is "git add filename" this will place the file and any changes in to the staging area.</p><p>Once the files are in the staging area you can then commit them for every change you make with a comment but it is advised to try and keep your commits to every five change.</p>
-        <h3>Extra Staging Commands</h3>
-            <p>git add --all this will add all files within the directory to the staging area.</p>
-            <p>git remote add takes two arguments, your remote repos name and the url of the github repository that you are adding it to.</p>
-            <p>git add "directory path": this will stage a specific directory or file, you need to have a file within the folder as git will not allow an empty folder to be push without a file, for tracking logs.<p>
-            <p>git rm filename is used to remove files or changes that are in the staging area.</p>
-            <p>git rm --chached filename will remove the file from the staging area only, this may need -r after rm for folders.</p>
-        <h3>The Four Stages of git(Creation, Modification, Refactoring & Deletion)</h3>
-            <p>The creation stage is the first and can be seen as the untracked work directory.
-            <p>The modification stage is next and can be seen as the tracked work directory.</p>
-            <p>The refactoring is the staging area within git and can be seen as the discussion stage.<p>The deletion stage is after all project files and git branches are up-to-date and merged you can then delete the sub branch with no data loss.</p>
+        <p>The staging area is the where files are placed ready to be committed and allows the developer to keep editing the files staged; this allows freedom of development on two layers, the developers work area and the branch (group discussion development) before the main merge.  </p>
+        <p>The main command to stage a file is "git add filename" this will place the file and any changes in to the staging area. Once the files are in the staging area you can then commit them for every change you make with a comment but it is advised to try and keep your commits to every five change.</p>
+    <h2>Module Two Assessment: Committed. Modified & Staged</h2>
+        <h3>Module Brief:</h3>
+        <p>You are required to create a folder named “ModuleTwo” inside your IGG folder with a file named “README.md”. You are then asked to write an essay based on the three states of git within your README.md file in your new ModuleTwo folder.</p>
+        <p>Once you are finished your essay please push it to your IGG repository, remember to add, commit and have a good comment on the commit.</p>
+        
 
             
             
