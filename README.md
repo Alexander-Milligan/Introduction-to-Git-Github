@@ -6,7 +6,7 @@
 <h1>Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
-<p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hens why half the world’s companies are using it to create their projects.</p>
+<p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hence why half the world’s companies are using it to create their projects.</p>
 
 
 <h2>Installation Requirement</h2>
@@ -39,15 +39,15 @@
     <p>13. Go to your Github account and look for the new repository to ensure everything is uploaded correctly.</p>
 
 <h2>Conclusion</h2>
-    <p>Once all steps had been followed the folder and a file where created I then edited the file, I then pushed and merged. Through carrying out these step a number of times there where little coding hits that I found very important, lines that help me a lot was "git status(obviously), git remote -v" and remembering that if I don’t "git commit -m "Comment" then nothing will be pushed from the staging area as it is empty. This is an easy task but for someone that is not normalised to git it can take some time to visualize the process.</p>
+    <p>Once all steps had been followed the folder and a file where created I then edited the file, I then pushed and merged. Through carrying out these step a number of times there where little coding hits that I found very important, lines that help me a lot are "git status(obviously), git remote -v" and remembering that if I don’t "git commit -m "Comment" then nothing will be pushed from the staging area as it is empty. This is an easy task but for someone that is not normalised to git it can take some time to visualize the process.</p>
 
 <h1>Module Two: Workflow & Staging</h1>
     <h2>Non-linear Workflow</h2>
         <p>A git workflow is a suggestion/recipe for how a team will use Git to achieve working on a project in a consistent way with more functionality and productivity. </p>
-        <p>With the option of creating single branches for individuals to work on the main project and then discus gives any project that is carried out in git is instantly given an error checking and development stage before any merges to the master project.</p>
+        <p>With the option of creating single branches for individuals to work on the main project and then discuss gives any project that is carried out in git is instantly given an error checking and development stage before any merges to the master project.</p>
     <h2>Staging</h2>
         <p>The staging area is the where files are placed ready to be committed and allows the developer to keep editing the files staged; this allows freedom of development on two layers, the developers work area and the branch (group discussion development) before the main merge.  </p>
-        <p>The main command to stage a file is "git add filename" this will place the file and any changes in to the staging area. Once the files are in the staging area you can then commit them for every change you make with a comment but it is advised to try and keep your commits to every five change.</p>
+        <p>The main command to stage a file is "git add filename" this will place the file and any changes in to the staging area. Once the files are in the staging area you can then commit them for every change you make with a comment but it is advised to try and keep your commits to every five changes.</p>
     <h2>Module Two Assessment: Committed. Modified & Staged</h2>
         <h3>Module Brief:</h3>
         <p>You are required to create a folder named “ModuleTwo” inside your IGG folder with a file named “README.md”. You are then asked to write an essay based on the three states of git within your README.md file in your new ModuleTwo folder.</p>
@@ -58,43 +58,46 @@
             
 <h1>Module Three:  Git Status & Gitignore file</h1>
     <h2>Status</h2>
-        <p>The git status command is one of the most used commands as it allows you to view the stage you are at and the file stage, such as Mfile.txt is modified or Dfile.txt means file has been deleted. There are a number of flags for the command that are very helpful, like status -s = status short: this will give a short output within columns and has flags RED and green colour coding such as the M AND D mentioned before.</p>
-        <p>Green M = Modified and staged</p>
-        <p>Red D = files that have been deleted.</p>
-        <p>Green A = files that have just been added.</p>
-        <p>If texted is coloured orange then this means that the branch is be hide or in front of the remote and cyan means the branch matches its remote.</p>
+        <p>The git status command is one of the most used commands as it allows you to view the stage of the files you are working on, such as Mfile.txt are modified or Dfile.txt means file has been deleted.</p>
+        <p>Green M 	= Modified and staged</p>
+        <p>Red D 	= files that have been deleted</p>
+        <p>Green A 	= files that have just been added</p>
+        <p>Orange 	= text in this colour means that the branch is behind or in front of the remote</p>
+        <p>Cyan 	= text in this colour means the branch matches its remote</p>
     <h2>Gitignore File</h2>
-        <p>The gitignore file is used to tell git to ignore certain file types. You can tell git to ignore folders as well as files, where this helps with security throughout the project.</p>
-        <p>To create the gitignore file type "echo gitignore > gitignore" with no extension.</p>
-        <p>To ignore folders type "foldername" within the gitignore file.</p>
-        <p>To ignore files type filename and extension.</p>
-        <p>To ignore all file types you can type "*.txt" or the file extension you want to ignore.</p>
-        <p>If you place a # before any text in the ignore file it will be seen as a comment within the ignore file. </p>
-        <p>In the command line you can type "echo newtext >> filename.txt" and it will append the file, this is due to the >> symbol which means appending.</p>
-        <p>The "git mv filename" command is used to move files and can be used to rename files "rm filename.txt newfilename.txt".<p>
+        <p>The gitignore file is used to tell git what to ignore, from folders to individual files and certain file types. This helps with security throughout the project due to the capability of hiding sensitive data files or things like api keys and more.</p>
+        <p>Do not carry out these steps; they are hits for the up and coming assessment</p>
+        <p>1. To create the gitignore file type "echo gitignore > gitignore" with no extension.</p>
+        <p>2. To ignore folders type "foldername" within the gitignore file.</p>
+        <p>3. To ignore files type filename and extension.</p>
+        <p>4. To ignore all file types you can type "*.txt" or the file extension you want to ignore.</p>
+        <p>5. If you place a # before any text in the ignore file it will be seen as a comment within the ignore file. </p>
+        <p>6. In the command line you can type "echo newtext >> filename.txt" and it will append the file, this is due to the >> symbol which means appending.</p>
+        <p>7. The "git mv filename" command is used to move files and can be used to rename files "rm filename.txt newfilename.txt".<p>
     <h2>Module Three Assessment: Create a Gitignore File</h2>
         <h3>Assessment Brief</h3>
-            <p>In this assessment you are required to create a file named FileOne.md through the git bash command line, you are then asked to create a gitignore file through the command line as well. You will then type the line you need to ignore the FileOne.md in the gitignore file; after this is complete you will add, commit and then push to the remote main branch.</p>
-            <p>You’re commit comments will be used to view completion so make sure to be clear on your comment.</p>
+            <p>In this assessment you are required to create a folder within your IGG folder named ModuleThree. In this folder you are asked to create a file named README.md and a file named testignore.txt through the git bash command line. You are then asked to create a gitignore file through the command line and then type the line you need to ignore the testignore.txt in the gitignore file; after this is complete you will add, commit and then push the changes to the remote repository.</p>
+            <p>You’re commit comments will be used to view completion so make sure to be clear on your comments.</p>
 
 <h1>Module Four: Diff Tools & Viewing History</h1>
     <h2>Diff Tools</h2>
-    <p>The git diff tool is used to compare staged files with the remote files to see the changes in a one screen view.</p>
-        <p>Typing git config --global diff.tool "your text editor" will set your text editor to open with diff commands.</p>
-        <p>git config --global difftool.vscode.cmd = sets the cmd file to open.</p>
-        <p>git config --global difftool.vscode.cmd "code --wait" this command will stop git from processing your changes before you are finish editing.</p>
-        <p>git config --global difftool.vscode.cmd "code --wait --diff this set git vs code for diff files.</p>
-        <p>git config --global difftool.vscode.cmd "code --wait --diff $LOACL $REMOTE" = Placeholders for copies of new files.</p>
+    <p>The git diff tool is used to compare staged files with the remote files, to see the changes in a one screen view. The git diff takes two sets of input data (fileone.txt fileone.txt) this will give an output of the file in the two different stages. You can see the git diff tool/function as a comparer command, below are some very helpful command hits. </p>
+        <p>1. Typing git config --global diff.tool "your text editor" will set your text editor to open with diff commands.</p>
+        <p>2. git config --global difftool.vscode.cmd = sets the cmd file to open.</p>
+        <p>3. git config --global difftool.vscode.cmd "code --wait" this command will stop git from processing your changes before you are finish editing.</p>
+        <p>4. git config --global difftool.vscode.cmd "code --wait --diff this set git vs code for diff files.</p>
+        <p>5. git config --global difftool.vscode.cmd "code --wait --diff $LOACL $REMOTE" = Placeholders for copies of new files.</p>
     <h2>Viewing History</h2>
-        <p>Checking your branch commit history can be very helpful and is used some time to help project to move forward and not double check areas.</p>
-        <p>"git log" will show a history of all the commits on that branch.</p>
-        <p>"git log --online" will show a history of the repository’s online commits.</p>
-        <p>"git show HEAD~1" this is one step back within the commit history.</p>
-        <p>Git sometimes uses other terms for objects such as a blob meaning a file and a tree meaning folder also being able to undo your last changes can be carried out by typing "git clean -fd" and this will undo local changes, the f means file and the d means directory.</p>
-    <h2>Module Four Assessment: Display your third commit log.</h2>
+        <p>Checking your branch commit history can be very helpful and is used some time to help project to keep moving forward and not double check areas. The git log command is the main default command to view your commit history.</p>
+        <p>1.	Typing git log" will show a history of all the commits on that branch</p>
+        <p>2.	Typing git log --online" will show a history of the repository’s online commits</p>
+        <p>3.	Typing git show HEAD~1" this is one step back within the commit history</p>
+        <p>Git sometimes uses its own terms for objects; an example is a blob meaning a file and a tree meaning a folder. Once you have use git and github for a while you will get normalized to these terms. 
+Being able to undo your last changes is always helpful and can be carried out by typing "git clean -fd", this will undo local changes where the f means file and the d means directory.
+</p>
+    <h2>Module Four Assessment: Display the Third Commit Log</h2>
         <h3>Assessment Brief</h3>
-            <p>You are required to create a file named Thirdcommit.md and place the log history from the third commit comment inside it. You are then asked to add it, commit it and then push it to the main branch, make sure you comment on this commit is clear on its purpose.</p>
-        <h3>Assessment complete:</h3>
+            <p>You are required to create a folder named ModuleFour within your IGG folder, you are then asked to create a file named README.md inside your IGG folder. You will then place the log history from the third commit comment inside your README file. You are then asked to add it, commit it and then push it to the main branch, make sure you comment on this commit is clear on its purpose.</p>
         <p>commit a382fc106f6e8207d41a2f3c4f71253bc2a517aa</p>
         <p>Author: Alexander Milligan <alexander0milligan@gmail.com></p>
         <p>Date:   Sun Apr 9 12:42:12 2023 +0100</p>
@@ -117,67 +120,69 @@
 <h1>Module Five: Push, Merge, Pull & Fetch</h1>
     <h2>Push</h2>
         <p>Description: The git push command is used to upload local repository content to a remote repository. The git push command can be seen as a syncing command and a fetch and pull can be seen as a download command.</p>
-        <p>The default push command is "git push -u origin main"
-        <p>git push -u origin "BranchName": This command will push any changes from the local repository to the remote repository branch.</p>
-        <p>git push "remote url" "BranchName": This command will push any changes from the local repository to the remote repository branch.</p>
-        <p>git push --all: This command will push any changes from the local repository to the remote repository branch as long as the command comes from the command line within the directory and branch.</p>
-        <p>git branch -D branch_name: This will delete a branch on the remote.</p>
+        <p>1. The default push command is "git push -u origin main"
+        <p>2. git push -u origin "BranchName": This command will push any changes from the local repository to the remote repository branch.</p>
+        <p>3. git push "remote url" "BranchName": This command will push any changes from the local repository to the remote repository branch.</p>
+        <p>4. git push --all: This command will push any changes from the local repository to the remote repository branch as long as the command comes from the command line within the directory and branch.</p>
+        <p>5. git branch -D branch_name: This will delete a branch on the remote.</p>
     <h2>Pull</h2>
         <p>Description: The git pull command is used to download content from your remote repository and will update your local repository. This command is two commands in one, a fetch and a merge.</p>
-        <p>Commands:</p>
-        <p>git pull</p>
-        <p>git pull remote</p>
-        <p>Fetch the specified remotes copy of the current branch and immediately merge it into the local copy</p>
-        <p>git pull --no-commit remote </p>
-        <p></p>
-        <p>git pull --no-commit remote: This will integrate the remote branch with the local</p>    
-        <p>git pull --rebase: This is a method of combining your local unpublished changes with the latest published changes</p>
-        <p>git switch BranchName</p>
-        <p>This will switch branches.</p>
+        <p>1. git pull</p>
+        <p>2. git pull remote: Fetch the specified remotes copy of the current branch and immediately merge it into the local copy</p>
+        <p>3. git pull --no-commit remote </p>
+        <p>4. git pull --no-commit remote: This will integrate the remote branch with the local</p>    
+        <p>5. git pull --rebase: This is a method of combining your local unpublished changes with the latest published changes</p>
     <h2>Fetch Request</h2>
-        <p>Description: Git fetch will download the remote repository.</p>
+        <p>Description: Git fetch will download the remote repository. Git fetch is a safer way to get the remote files from a repository than git pull due to the fact that it does not change any of the files in the process.</p>
         <p>Git fetch is a more safer way to get the remote files from a repository than git pull due to the fact that it does not change any of the files in the process.</p>
-        <p>git pull = git fetch + git merge.</p> 
-        <p>The default command is: "git fetch remote-url" </p> 
+        <p>1. git pull = git fetch + git merge.</p> 
+        <p>2. The default command is: "git fetch remote-url" </p> 
     <h2>Merge Request</h2>
         <p>Description: Git merge requests will join all development histories together from one branch to another or the main branch.</p>
-        <p>The git merge command can give you the power to merge specific area of the development.</p>
-        <p>The default comand: "git merge"</p>
+        <p>3. The git merge command can give you the power to merge specific area of the development.</p>
+        <p>4. The default comand is: "git merge"</p>
+    <h2>Module Five Assessment: Push, Merge, Pull & Fetch Commits</h2>
+        <p>You are required to create a folder named ModuleFive within your IGG folder, you are then asked to create a file named README.md. Within this file you are to carry out each task push, fetch, edit, push, pull, edit and push. </p>
+        <p><b>Please follow the steps below to complete the assessment.</b></p>
+        <p>1.	Create a folder by typing “mkdir ModuleFive”</p>
+        <p>2.	Create a file by typing “echo Assessment five > README.md”</p>
+        <p>3.	Type “git add *”, “git commit –m “CLEAR COMMENT HERE”, “git push –u origin master” ”</p>
+        <p>4.	Type “git fetch URL-OF-REMOTE”</p>
+        <p>5.	Once you have the readme file back open it in your text editor and place this texted in it “This edit is to show that a push and fetch request has been successfully completed.”</p>
+        <p>6.	Type “git add *”, “git commit –m “CLEAR COMMENT HERE”, “git push –u origin master” ”</p>
+        <p>7.	Type “git pull URL-OF-REMOTE”</p>
+        <p>8.	Open the readme file in your text editor again and place this texted inside “This is an edit to show that a pull request has been completed successfully.”</p>
+        <p>9.	Type “git add *”, “git commit –m “CLEAR COMMENT ON LAST STAGE HERE”, “git push –u origin master” ”</p>
+      
    
 
 
 <h1>Module Six:  History Error Assessment</h1>
     <h2>Assessment Brief</h2>
-        <p>This assessment is based on a git main(default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed. You are asked to type out step base on how to render this error and match up the histories.</p>
-    <h2>Catalyst :</h2> 
-        <p>This problem accords mainly when an text editor is used to commit and then a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
+        <p>This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed. You are asked to type out step base on how to render this error and match up the histories.</p>
+    <h2>Catalyst: </h2> 
+        <p>This problem accords mainly when an text editor is used to commit and the a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
     <h2>Rendering Steps</h2>
-        <p>The first step to render this error is to check that your remote master is up to date, if not then try pushing your master branch.</p>
-        <p>This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
-        <p>The last step was to push the updated master branch on the local to the remote master.</p>
-        <p>Once this was completed and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
-    <h2>Command Path</h2>
-        <p>git pull master url</p>
-        <p>git merge</p>
-        <p>git add *</p>
-        <p>git commit - m "comment"</p>
-        <p>git push -u origin master</p>
-    <h2>Conclusion :</h2>
-        <p>This happens due to a syncing error, the pull command on the master branch and merging the local after this syncs the repositories back to equal stats.</p>
+        <p>1. The first step to render this error is to check that your remote master is up to date, if not then try pushing your master branch.</p>
+        <p>2. This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
+        <p>3.The last step was to push the updated master branch on the local to the remote master. Once this was completed and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
+    <h2>Task Command Path</h2>
+        <p>1. git pull master url</p>
+        <p>2. git merge</p>
+        <p>3. git add *</p>
+        <p>4. git commit - m "comment"</p>
+        <p>5. git push -u origin master</p>
+
  
 
-<h1>Module Seven:  Pull, Edit, Push Assessment</h1>
+<h1>Module Seven: Pull, Edit, Push Assessment</h1>
     <h2>Assessment Brief</h2>
-    <p>For this assessment you will need to create a new repository named ModuleSeven, you are then required to pull this repository(https://github.com/Alexander-Milligan/ModuleSevenFolder.git)in to your repository and edit the readme to say Hello Module Seven. Save the file and add, commit and push the folder and file to your repository.</p>
-   <p>Assessment Completion Link: https://github.com/Alexander-Milligan/ModuleSeven.git</p>
+    <p>For this assessment you will need to create a new repository named ModuleSeven, you are then required to pull this repository (https://github.com/Alexander-Milligan/ModuleSevenFolder.git)in to your IGG folder and edit the readme to say Hello Module Seven. Save the file in the new ModuleSeven folder and add, commit and push the folder and file to your repository.</p>
 
 <h1>Module Eight:  Open Source Edit Assessment</h1>
     <h2>Assessment Brief</h2>
-    <p>For this assessment you are required to setup a local folder with a git repo in it named ModuleEightProject. 
-    You are then asked to find a git project that you like and pull that project through the command line in
-    to your folder and edit one of its file, you are then asked to push the new repository to github. 
-   </p>
-   <p>Assessment Completion Link: https://github.com/Alexander-Milligan/ModuleEightProject.git</p>
+    <p>For this assessment you are required to setup a folder named ModuleEight with a readme file. You are then asked to find a git project that you like and pull that project through the command line into your folder and edit one of its file, you will then push the folder to your repository. </p>
+   <p>It is advised to keep your choice of project small.</p>
 
 </div>
 <div class="header">
