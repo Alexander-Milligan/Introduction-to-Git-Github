@@ -18,7 +18,7 @@
 
 <samp><h1>Introduction to Git & Github: Your name here</h1>
 <h2>Course Assessment Layout</h2>
-<p>This repository is set up to store the assessment results for completing the ICC course.</p>
+<p>This repository is set up to store the assessment results for completing the IGG course.</p>
 <samp>1. Module One: What Git is & Setting Git Up</samp> 
 <p>By this readme being setup and here stats that the assessment was followed and complered.</p></samp>
 
