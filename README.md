@@ -61,7 +61,7 @@
 
             
             
-<h1>Module Three:  Git Status & Gitignore file</h1>
+<h1>Module Three: Git Status & Gitignore file</h1>
     <h2>Status</h2>
         <p>The git status command is one of the most used commands as it allows you to view the stage of the files you are working on, such as Mfile.txt are modified or Dfile.txt means file has been deleted.</p>
         <p>Green M 	= Modified and staged</p>
@@ -82,7 +82,7 @@
     <h2>Module Three Assessment: Create a Gitignore File</h2>
         <h3>Assessment Brief</h3>
             <p>In this assessment you are required to create a folder within your IGG folder named ModuleThree. In this folder you are asked to create a file named README.md and a file named testignore.txt through the git bash command line. You are then asked to create a gitignore file through the command line and then type the line you need to ignore the testignore.txt in the gitignore file; after this is complete you will add, commit and then push the changes to the remote repository.</p>
-            <p>You’re commit comments will be used to view completion so make sure to be clear on your comments.</p>
+            <p>You are required to give a short discription within the ModuleThree folders REDME file of how you completed this assessment.</p>
 
 <h1>Module Four: Diff Tools & Viewing History</h1>
     <h2>Diff Tools</h2>
