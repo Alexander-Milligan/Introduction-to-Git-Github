@@ -194,6 +194,3 @@ Being able to undo your last changes is always helpful and can be carried out by
 <p>Once all modules have been completed please send your github repository url to SaltireCourses@gmail.com, where your course will be evaluated and marked. You one be contacted within two weeks of sending your course link and you will get your certificate of completion as well.</p>
 
 </div>
-<div class="header">
-    <div class="logo"><img src="IGG-Certificate.png"/></div>
-</div>
