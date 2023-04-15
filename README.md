@@ -185,7 +185,7 @@ Being able to undo your last changes is always helpful and can be carried out by
 
 <h1>Module Seven: Pull, Edit, Push Assessment</h1>
     <h2>Assessment Brief</h2>
-    <p>For this assessment you will need to create a new repository named ModuleSeven, you are then required to pull this repository https://github.com/Alexander-Milligan/ModuleSevenFolder.git in to your IGG folder and edit the readme to say Hello Module Seven. Save the file in the new ModuleSeven folder and add, commit and push the folder and file to your repository.</p>
+    <p>For this assessment you will need to create a new folder named ModuleSeven, you are then required to pull this repository https://github.com/Alexander-Milligan/ModuleSevenFolder.git in to your IGG folder and edit the readme to say Hello Module Seven. Save the file in the new ModuleSeven folder and add, commit and push the folder and file to your repository.</p>
 
 <h1>Module Eight:  Open Source Edit Assessment</h1>
     <h2>Assessment Brief</h2>
