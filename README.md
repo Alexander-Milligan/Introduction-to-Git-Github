@@ -153,7 +153,7 @@ Being able to undo your last changes is always helpful and can be carried out by
         <p>2.	Create a file by typing “echo Assessment five > README.md”</p>
         <p>3.	Type “git add *”, “git commit –m “CLEAR COMMENT HERE”, “git push –u origin master” ”</p>
         <p>4.	Type “git fetch URL-OF-REMOTE”</p>
-        <p>5.	Once you have the readme file back open it in your text editor and place this texted in it “This edit is to show that a push and fetch request has been successfully completed.”</p>
+        <p>5.	Once you have the readme file back; open it in your text editor and place this texted in it “This edit is to show that a push and fetch request has been successfully completed.”</p>
         <p>6.	Type “git add *”, “git commit –m “CLEAR COMMENT HERE”, “git push –u origin master” ”</p>
         <p>7.	Type “git pull URL-OF-REMOTE”</p>
         <p>8.	Open the readme file in your text editor again and place this texted inside “This is an edit to show that a pull request has been completed successfully.”</p>
@@ -163,20 +163,23 @@ Being able to undo your last changes is always helpful and can be carried out by
 
 
 <h1>Module Six:  History Error Assessment</h1>
-    <h2>Assessment Brief</h2>
-        <p>This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed. You are asked to type out step base on how to render this error and match up the histories.</p>
     <h2>Catalyst: </h2> 
         <p>This problem accords mainly when an text editor is used to commit and the a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
     <h2>Rendering Steps</h2>
         <p>1. The first step to render this error is to check that your remote master is up to date, if not then try pushing your master branch.</p>
         <p>2. This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
         <p>3.The last step was to push the updated master branch on the local to the remote master. Once this was completed and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
-    <h2>Task Command Path</h2>
-        <p>1. git pull master url</p>
-        <p>2. git merge</p>
-        <p>3. git add *</p>
-        <p>4. git commit - m "comment"</p>
-        <p>5. git push -u origin master</p>
+    <h2>Assessment Brief</h2>
+        <p>You are required to create a folder named "ModuleSix" and create a readme file within it. This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed. You are asked to type out step base on how to render this error in your README.md file and match up the histories with out setting the scenario up.</p>
+        <p>Your README file will be viewed and assessed for your mark.</p>
+<h2>Example of readme notes that are required</h2>
+    
+<h2>Task Command Path</h2>
+        <p>1. git command</p>
+        <p>2. git command</p>
+        <p>3. git command</p>
+        <p>4. git command</p>
+        <p>5. git command</p>
 
  
 
