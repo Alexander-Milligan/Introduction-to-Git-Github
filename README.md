@@ -116,20 +116,21 @@ Being able to undo your last changes is always helpful and can be carried out by
 </p>
     <h2>Module Four Assessment: Display the Third Commit Log</h2>
         <h3>Assessment Brief</h3>
-            <p>You are required to create a folder named ModuleFour within your IGG folder, you are then asked to create a file named README.md inside your IGG folder. You will then place the log history from the third commit comment inside your README file. You are then asked to add it, commit it and then push it to the main branch, make sure you comment on this commit is clear on its purpose.</p>
-        <p>commit a382fc106f6e8207d41a2f3c4f71253bc2a517aa</p>
-        <p>Author: Alexander Milligan <alexander0milligan@gmail.com></p>
-        <p>Date:   Sun Apr 9 12:42:12 2023 +0100</p>
-        <p>Finished Module Two</p>
-        <p>diff --git a/ModuleTwo/ModuleTwo.md b/ModuleTwo/ModuleTwo.md</p>
-        <p>index e6a37d3..27cab33 100644</p>
-        <p>--- a/ModuleTwo/ModuleTwo.md</p>
-        <p> +++ b/ModuleTwo/ModuleTwo.md</p>
-        <p> @@ -10,5 +10,7 @@</p>
-        <p>git add "directory path": this will stage a specific directory or file, you need to have a file within the folder as git will not allow an empty folder to be push with out a file, for tracking logs.<p>
-        <p>git rm filename is used to remove files or changes that are in the staging area.</p>
-        <p>git rm --chached filename will remove the file from the staging
-        area only, this may need -r after rm for folders.</p>
+            <p>You are required to create a folder named ModuleFour within your IGG folder, you are then asked to create a file named README.md inside your ModuleFour folder. You will then place the log history from the third commit comment inside your README file. You are then asked to add it, commit it and then push it , make sure you comment on this commit is clear on its purpose.</p>          
+    <h2>Log History Example</h2>
+            <p>commit a382fc106f6e8207d41a2f3c4f71253bc2a517aa</p>
+            <p>Author: Alexander Milligan <alexander0milligan@gmail.com></p>
+            <p>Date:   Sun Apr 9 12:42:12 2023 +0100</p>
+            <p>Finished Module Two</p>
+            <p>diff --git a/ModuleTwo/ModuleTwo.md b/ModuleTwo/ModuleTwo.md</p>
+            <p>index e6a37d3..27cab33 100644</p>
+            <p>--- a/ModuleTwo/ModuleTwo.md</p>
+            <p> +++ b/ModuleTwo/ModuleTwo.md</p>
+            <p> @@ -10,5 +10,7 @@</p>
+            <p>git add "directory path": this will stage a specific directory or file, you need to have a file within the folder as git will not allow an empty folder to be push with out a file, for tracking logs.<p>
+            <p>git rm filename is used to remove files or changes that are in the staging area.</p>
+            <p>git rm --chached filename will remove the file from the staging
+            area only, this may need -r after rm for folders.</p>
         
 
 
@@ -160,18 +161,17 @@ Being able to undo your last changes is always helpful and can be carried out by
         <p>Description: Git merge requests will join all development histories together from one branch to another or the main branch.</p>
         <p>3. The git merge command can give you the power to merge specific area of the development.</p>
         <p>4. The default comand is: "git merge"</p>
-    <h2>Module Five Assessment: Push, Merge, Pull & Fetch Commits</h2>
+    <h2>Module Five Assessment: Fetch, Edit, Push</h2>
         <p>You are required to create a folder named ModuleFive within your IGG folder, you are then asked to create a file named README.md. Within this file you are to carry out each task push, fetch, edit, push, pull, edit and push. </p>
         <p><b>Please follow the steps below to complete the assessment.</b></p>
         <p>1.	Create a folder by typing “mkdir ModuleFive”</p>
-        <p>2.	Create a file by typing “echo Assessment five > README.md”</p>
-        <p>3.	Type “git add *”, “git commit –m “CLEAR COMMENT HERE”, “git push –u origin master” ”</p>
+        <p>2.	Create a file by typing “echo Assessment five > M5.txt”</p>
+        <p>3.	Type “git add *”, “git commit –m “M5 First Push”, “git push –u origin master” ”</p>
         <p>4.	Type “git fetch URL-OF-REMOTE”</p>
-        <p>5.	Once you have the readme file back; open it in your text editor and place this texted in it “This edit is to show that a push and fetch request has been successfully completed.”</p>
-        <p>6.	Type “git add *”, “git commit –m “CLEAR COMMENT HERE”, “git push –u origin master” ”</p>
-        <p>7.	Type “git pull URL-OF-REMOTE”</p>
-        <p>8.	Open the readme file in your text editor again and place this texted inside “This is an edit to show that a pull request has been completed successfully.”</p>
-        <p>9.	Type “git add *”, “git commit –m “CLEAR COMMENT ON LAST STAGE HERE”, “git push –u origin master” ”</p>
+        <p>5.	Once you have the readme file back; open it in your text editor and place this texted in it “This edit is to show that a fetch, edit and push task has been successfully completed.”</p>
+        <p>6.	Type “git add *”, “git commit –m “Fetched, Editted and Pushed”, “git push –u origin master” ”</p>
+        <p>7.	Open the readme file in your text editor again and place this texted inside “This is an edit to show that Module Five has been completed successfully.”</p>
+        <p>8.	Type “git add *”, “git commit –m “Module Five Complete”, “git push –u origin master” ”</p>
       
    
 
@@ -180,21 +180,24 @@ Being able to undo your last changes is always helpful and can be carried out by
     <h2>Catalyst: </h2> 
         <p>This problem accords mainly when an text editor is used to commit and the a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
     <h2>Rendering Steps</h2>
-        <p>1. The first step to render this error is to check that your remote master is up to date, if not then try pushing your master branch.</p>
+        <p>1. The first step to render this error was to check that my remote master was up to date, it was not so I then try pushing my master branch.</p>
         <p>2. This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
         <p>3.The last step was to push the updated master branch on the local to the remote master. Once this was completed and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
-    <h2>Assessment Brief</h2>
-        <p>You are required to create a folder named "ModuleSix" and create a readme file within it. This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed.</p>
-        <p> You are asked to type out the commands used to render this error in your README.md file. Without setting the scenario up; follow the rendering log that has been given below with a command example that hints at how many steps there are.</p>
-        <p>Your README file will be viewed and assessed for your mark.</p>
-<h2>Example of readme notes that are required</h2>
     
+
+<h2>Assessment Brief</h2>
+    <p>You are required to create a folder named "ModuleSix" and create a readme file within it. This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed.</p>
+    <p> You are asked to type out the commands used to render this error in your README.md file. Without setting the scenario up; follow the rendering log that has been given below with a command example that hints at how many steps there are.</p>
+    <p>Your README file will be viewed and assessed for your mark.</p>
+
+<h2>Example of readme notes that are required.</h2>
+
 <h2>Task Command Path</h2>
-        <p>1. git command</p>
-        <p>2. git command</p>
-        <p>3. git command</p>
-        <p>4. git command</p>
-        <p>5. git command</p>
+    <p>1. git command</p>
+    <p>2. git command</p>
+    <p>3. git command</p>
+    <p>4. git command</p>
+        
 
  
 
