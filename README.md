@@ -210,9 +210,9 @@ Being able to undo your last changes is always helpful and can be carried out by
     <h2>Assessment Brief</h2>
     <p>There are a number of security features that github has for repository’s, in this module you will learn about the first two features, secret scanning and code scanning. There are five main option/features in github for repository security and it is very helpful to know of them all.</p>
     <h2>Secret Scanning</h2>
-        <p></p>
+        <p>Github has an inbuilt secret scanning feature where github will check for any secrete key or sensitive documents may have been uploaded by mistake. You can enable this feature within the security area of github. </p>
     <h2>Code Scanning</h2>
-        <p></p>
+        <p>Github has an inbuilt code scanning feature where github will scan your files for any coding errors, security visibilities and spelling errors. This feature comes with a charge as it uses a Github action service and this has its own costs, all information about the cost of this feature can be found at https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions . </p>
     <h2>Assessment Eight: Repository Security</h2>
         <h3>Assessment Brief</h3>
         <p>In this assessment you are required to write an essay based on the Security Advisories, Dependabot Alerts and the Security Policy features functions. You are then asked to create a folder named “ModuleEight” inside your IGG folder and place your essay in your ModuleEight folder. Once you have completed these steps, please add, commit and push your new folder to your IGG repository.</p>
