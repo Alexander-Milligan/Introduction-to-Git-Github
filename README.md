@@ -27,13 +27,14 @@
     <p>1. Create a folder named “IGG-yourname” on your computer. </p>
     <p>2. Open the new folder, right click any white space in the folder and select “git bash here”. </p>
     <p>3. Create the README.md file by typing echo Introduction > READEME.md, copy the following texted in to the README file and save.</p>
-    <p>“Introduction to Git & Github: Your name here
-        This candidate repository has been set up to store the assessment materials for completing the IGG course.
+<p>
+    “Introduction to Git & Github: Your name here
+    This candidate repository has been set up to store the assessment materials for completing the IGG course.
 
-        Candidate Name:  Your name here
-        Course starting Date: The date you start this course
+    Candidate Name:  Your name here
+    Course starting Date: The date you start this course
 
-        Course Layout
+    Course Layout
 
         1.	Module One: What Git is & Setting Git Up
         2.	Module Two: Workflow & Staging
@@ -48,16 +49,13 @@
 </p>
     <p>4. Type "git init": The git init command initializes a new default empty git repository.</p>
     <p>5. Now type "git config --global user.name "yourname" " this is setting the workspace/folder with a git user name.</p> 
-    <p>6. Now type "git config --global user.email "youremail@gmail.com" " this is setting the workspace/folder with a git user email.</p>
-    <p>7. Now open the README.md in your text editor and paste in the text given in the assessment brief replacing any text n there and save.</p>
-    <p>8. Type "git add" and your file's name or git add *: The git add command adds the changes that have been done in the working directory stages them ready for a commit.</p>
-    <p>9. Type "git commit -m "Module One Course Folder Set up" will commit all the files that are in the staging area ready to be pushed.</p>
-    <p>10. Login to your github account and create a new repository named “IGG-yourname”.</p>
-    <p>11. Type git remote add origin URL -of - IGG-yourname Repo</p>
-    <p>12. Type git push –u origin master, this will push your repo to the github remote.</p>
-    <p>13. Go to your Github account and look for the new repository to ensure everything is uploaded correctly.</p>
-
-
+    <p>6. Now type "git config --global user.email "youremail@gmail.com" this is setting the workspace/folder with a git user email.</p>
+    <p>7. Type "git add" and your file's name or git add *: The git add command adds the changes that have been done in the working directory stages them ready for a commit.</p>
+    <p>8. Type "git commit -m "Module One Course Folder Set up" will commit all the files that are in the staging area ready to be pushed.</p>
+    <p>9. Login to your github account and create a new repository named “IGG-yourname”.</p>
+    <p>10. Type git remote add origin URL -of - IGG-yourname Repo</p>
+    <p>11. Type git push –u origin master, this will push your repo to the github remote.</p>
+    <p>12. Go to your Github account and look for the new repository to ensure everything is uploaded correctly.</p>
 
 <h1>Module Two: Workflow & Staging</h1>
     <h2>Non-linear Workflow</h2>
