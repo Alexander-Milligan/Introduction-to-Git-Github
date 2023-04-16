@@ -23,14 +23,7 @@
 <p>You are required to follow the steps below to create a repository on github, you can choose to make your repository public or not; this is your preference. Following the assessment steps below will set up your folder and repository that is required to complete this course. When you have finish the course you will send your repository url for verification and to receive your certificate of completion.
 </p>
 
-<samp><h1>Introduction to Git & Github: Your name here</h1>
-<h2>Course Assessment Layout</h2>
-<p>This repository is set up to store the assessment results for completing the IGG course.</p>
-<samp>1. Module One: What Git is & Setting Git Up</samp> 
-<p>By this readme being setup and here stats that the assessment was followed and complered.</p></samp>
-
 <h2>Steps</h2>
-    <p>Once all installation requirements have been met please follow these steps. </p>
     <p>1. Create a folder named “IGG-yourname” on your computer. </p>
     <p>2. Open the new folder, right click any white space in the folder and select “git bash here”. </p>
     <p>3. Create the README.md file by typing echo Introduction > READEME.md, copy the following texted in to the README file and save.</p>
@@ -219,7 +212,7 @@ Being able to undo your last changes is always helpful and can be carried out by
     <h2>Assessment Eight: Repository Security</h2>
         <h3>Assessment Brief</h3>
         <p>In this assessment you are required to write an essay based on the Security Advisories, Dependabot Alerts and the Security Policy features functions. You are then asked to create a folder named “ModuleEight” inside your IGG folder and place your essay in your ModuleEight folder. Once you have completed these steps, please add, commit and push your new folder to your IGG repository.</p>
-        
+
 <h1>Course Conclusion </h2>
     <p>Once you have finish Module Eight you have finish the course and are asked to follow the course completion steps below. Thank you very much for following this course.</p>
     <b><p>Congratulation & Well Done</p></b>
