@@ -26,7 +26,7 @@
 <h2>Steps</h2>
     <p>1. Create a folder named “IGG-yourname” on your computer. </p>
     <p>2. Open the new folder, right click any white space in the folder and select “git bash here”. </p>
-    <p>3. Create the README.md file by typing echo Introduction > READEME.md, copy the following texted in to the README file and save.</p>
+    <p>3. Create the README.md file by typing "echo > READEME.md", copy the following texted in to the README file and save.</p>
 <p>
     “Introduction to Git & Github: Your name here
     This candidate repository has been set up to store the assessment materials for completing the IGG course.
@@ -52,7 +52,7 @@
     <p>6. Now type "git config --global user.email "youremail@gmail.com" this is setting the workspace/folder with a git user email.</p>
     <p>7. Type "git add" and your file's name or git add *: The git add command adds the changes that have been done in the working directory stages them ready for a commit.</p>
     <p>8. Type "git commit -m "Module One Course Folder Set up" will commit all the files that are in the staging area ready to be pushed.</p>
-    <p>9. Login to your github account and create a new repository named “IGG-yourname”.</p>
+    <p>9. Login to your github account and create a new repository named “IGG-yournamehere”, please do not follow the steps that come up after creating the repository as this creates a branch that is not needed for this course.</p>
     <p>10. Type git remote add origin URL -of - IGG-yourname Repo</p>
     <p>11. Type git push –u origin master, this will push your repo to the github remote.</p>
     <p>12. Go to your Github account and look for the new repository to ensure everything is uploaded correctly.</p>
@@ -66,7 +66,7 @@
         <p>The main command to stage a file is "git add filename" this will place the file and any changes in to the staging area. Once the files are in the staging area you can then commit them for every change you make with a comment but it is advised to try and keep your commits to every five changes.</p>
     <h2>Module Two Assessment: Committed. Modified & Staged</h2>
         <h3>Module Brief:</h3>
-        <p>You are required to create a folder named “ModuleTwo” inside your IGG folder with a file named “README.md”. You are then asked to write an essay based on the three states of git within your README.md file in your new ModuleTwo folder.</p>
+        <p>You are required to create a folder named “ModuleTwo” inside your IGG folder with a “README.md”, remebering to cd in to the new folder to create the readme file. You are then asked to write an essay based on the three states of git within your README.md file in your new ModuleTwo folder.</p>
         <p>Once you are finished your essay please push it to your IGG repository, remember to add, commit and have a good comment on the commit.</p>
         
 
@@ -92,7 +92,10 @@
         <p>7. The "git mv filename" command is used to move files and can be used to rename files "rm filename.txt newfilename.txt".<p>
     <h2>Module Three Assessment: Create a Gitignore File</h2>
         <h3>Assessment Brief</h3>
-            <p>In this assessment you are required to create a folder within your IGG folder named ModuleThree. In this folder you are asked to create a file named README.md and a file named testignore.txt through the git bash command line. You are then asked to create a gitignore file through the command line and then type the line you need to ignore the testignore.txt in the gitignore file; after this is complete you will add, commit and then push the changes to the remote repository.</p>
+            <p>In this assessment you are required to create a folder within your IGG folder named ModuleThree. In this folder you are asked to create a file named README.md and a file named testignore.txt through the git bash command line. You are then asked to create a gitignore file through the command line and then type the line you need to ignore the testignore.txt in the gitignore file.
+            After this is complete add this text to the readme file in your modulethree folder 
+            "If the file testignore is not displayed in this folder or the master folder, assessment three has been followed and completed correcly."
+            and add, commit then push the changes to the remote IGG repository.</p>
             <p>You are required to give a short discription within the ModuleThree folders REDME file of how you completed this assessment.</p>
 
 <h1>Module Four: Diff Tools & Viewing History</h1>
