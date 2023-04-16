@@ -20,7 +20,8 @@
 
 <h2>Module One Assessment: Course Folder Setup</h2>
 <h3>Assessment Brief</h3>
-<p>You are required to follow the steps below to create a repository named “IGG-yourname” along with a file named “CourseLayout.md” and copy the following texted in to that file.</p>
+<p>You are required to follow the steps below to create a repository on github, you can choose to make your repository public or not; this is your preference. Following the assessment steps below will set up your folder and repository that is required to complete this course. When you have finish the course you will send your repository url for verification and to receive your certificate of completion.
+</p>
 
 <samp><h1>Introduction to Git & Github: Your name here</h1>
 <h2>Course Assessment Layout</h2>
@@ -32,7 +33,26 @@
     <p>Once all installation requirements have been met please follow these steps. </p>
     <p>1. Create a folder named “IGG-yourname” on your computer. </p>
     <p>2. Open the new folder, right click any white space in the folder and select “git bash here”. </p>
-    <p>3. Create the README.md file by typing echo Introduction > READEME.md.</p>
+    <p>3. Create the README.md file by typing echo Introduction > READEME.md, copy the following texted in to the README file and save.</p>
+    <p>“Introduction to Git & Github: Your name here
+        This candidate repository has been set up to store the assessment materials for completing the IGG course.
+
+        Candidate Name:  Your name here
+        Course starting Date: The date you start this course
+
+        Course Layout
+
+        1.	Module One: What Git is & Setting Git Up
+        2.	Module Two: Workflow & Staging
+        3.	Module Three: Git Status & Gitignore file
+        4.	Module Four: Diff Tools & Viewing History
+        5.	Module Five: Push, Merge, Pull & Fetch
+        6.	Module Six: History Error Assessment
+        7.	Module Seven: Pull, Edit, Push Assessment
+        8.	Module Eight: Repository Security
+
+        By this readme being setup and here stats that the Module One Assessment was followed and completed”
+</p>
     <p>4. Type "git init": The git init command initializes a new default empty git repository.</p>
     <p>5. Now type "git config --global user.name "yourname" " this is setting the workspace/folder with a git user name.</p> 
     <p>6. Now type "git config --global user.email "youremail@gmail.com" " this is setting the workspace/folder with a git user email.</p>
@@ -170,7 +190,8 @@ Being able to undo your last changes is always helpful and can be carried out by
         <p>2. This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
         <p>3.The last step was to push the updated master branch on the local to the remote master. Once this was completed and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
     <h2>Assessment Brief</h2>
-        <p>You are required to create a folder named "ModuleSix" and create a readme file within it. This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed. You are asked to type out step base on how to render this error in your README.md file and match up the histories with out setting the scenario up.</p>
+        <p>You are required to create a folder named "ModuleSix" and create a readme file within it. This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed.</p>
+        <p> You are asked to type out the commands used to render this error in your README.md file. Without setting the scenario up; follow the rendering log that has been given below with a command example that hints at how many steps there are.</p>
         <p>Your README file will be viewed and assessed for your mark.</p>
 <h2>Example of readme notes that are required</h2>
     
@@ -185,15 +206,24 @@ Being able to undo your last changes is always helpful and can be carried out by
 
 <h1>Module Seven: Pull, Edit, Push Assessment</h1>
     <h2>Assessment Brief</h2>
-    <p>For this assessment you will need to create a new folder named ModuleSeven, you are then required to pull this repository https://github.com/Alexander-Milligan/ModuleSevenFolder.git in to your IGG folder and edit the readme to say Hello Module Seven. Save the file in the new ModuleSeven folder and add, commit and push the folder and file to your repository.</p>
+    <p>For this assessment you will need to create a new repository named ModuleSevenPull, you are then required to pull this repository (https://github.com/Alexander-Milligan/ModuleSevenPull.git)in to your new repository and edit the ModuleSevenREADME.md file to say “Hello Module Seven after being pulled and edited”. Save the file in a new ModuleSeven folder in your IGG folder and add, commit and push the folder and file to your repository.</p>
+    <p></p>
 
-<h1>Module Eight:  Open Source Edit Assessment</h1>
+<h1>Module Eight:  Repository Security</h1>
     <h2>Assessment Brief</h2>
-    <p>For this assessment you are required to setup a folder named ModuleEight with a readme file. You are then asked to find a git project that you like and pull that project through the command line into your folder and edit one of its file, you will then push the folder to your repository. </p>
-   <p>It is advised to keep your choice of project small.</p>
-
-
-<h2>Course Completion Steps</h2>
-<p>Once all modules have been completed please send your github repository url to SaltireCourses@gmail.com, where your course will be evaluated and marked. You one be contacted within two weeks of sending your course link and you will get your certificate of completion as well.</p>
+    <p>There are a number of security features that github has for repository’s, in this module you will learn about the first two features, secret scanning and code scanning. There are five main option/features in github for repository security and it is very helpful to know of them all.</p>
+    <h2>Secret Scanning</h2>
+        <p></p>
+    <h2>Code Scanning</h2>
+        <p></p>
+    <h2>Assessment Eight: Repository Security</h2>
+        <h3>Assessment Brief</h3>
+        <p>In this assessment you are required to write an essay based on the Security Advisories, Dependabot Alerts and the Security Policy features functions. You are then asked to create a folder named “ModuleEight” inside your IGG folder and place your essay in your ModuleEight folder. Once you have completed these steps, please add, commit and push your new folder to your IGG repository.</p>
+        
+<h1>Course Conclusion </h2>
+    <p>Once you have finish Module Eight you have finish the course and are asked to follow the course completion steps below. Thank you very much for following this course.</p>
+    <b><p>Congratulation & Well Done</p></b>
+<h1>Course Completion Steps</h2>
+    <p>Once all modules have been completed please send your github repository url to SaltireCourses@gmail.com, where your course will be evaluated and marked. You one be contacted within two weeks of sending your course link and you will get your certificate of completion as well.</p>
 
 </div>
