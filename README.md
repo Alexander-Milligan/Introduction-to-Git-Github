@@ -5,7 +5,7 @@
     </div>
 </div>
 <div class="container">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=madushadhanushka&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=2B5BBD&icon_color=1124BB&text_color=A1A1A1&bg_color=0,000000,130F40" alt="my Github Stats"/>
+
 <h1>Course Summary</h1>
 <p>This course will take the user through an introduction to git and github, the course covers the history, purpose, workflow and functions of using git and github. The course has been designed and created to give the user the knowledge and capability to create and interact with their repository on Github.</p>
 <p>The course will teach and run the user through using git commands to push, pull, merge, fetch, add, commit and get the status of the stage the files/folders are in at that point. The course has been referenced from Traversy Media, programmingwithmosh and overlaid with a github learning lab beginner’s course.</p>
