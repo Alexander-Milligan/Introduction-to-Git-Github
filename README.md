@@ -1,41 +1,33 @@
 
 <div class="header">
-    <div class="logo"><img src="Logo.png"/></div>
+    <div class="logo">
+        <img src="Logo.png"/>
+    </div>
 </div>
 <div class="container">
+
 <h1>Course Summary</h1>
 <p>This course will take the user through an introduction to git and github, the course covers the history, purpose, workflow and functions of using git and github. The course has been designed and created to give the user the knowledge and capability to create and interact with their repository on Github.</p>
-
 <p>The course will teach and run the user through using git commands to push, pull, merge, fetch, add, commit and get the status of the stage the files/folders are in at that point. The course has been referenced from Traversy Media, programmingwithmosh and overlaid with a github learning lab beginner’s course.</p>
-
 
 <h1>Module One: What Git is & Setting Git Up</h1>
 <p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
 <p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hence why half the world’s companies are using it to create their projects.</p>
-
-
 <h2>Installation Requirement</h2>
 <p>In this module you will be required to setup a working environment that entails installation of git, git bash and a github account; along with a text editor of your choice.</p>
-
 <h2>Module One Assessment: Course Folder Setup</h2>
 <h3>Assessment Brief</h3>
-<p>You are required to follow the steps below to create a repository on github, you can choose to make your repository public or not; this is your preference. Following the assessment steps below will set up your folder and repository that is required to complete this course. When you have finish the course you will send your repository url for verification and to receive your certificate of completion.
-</p>
-
+<p>You are required to follow the steps below to create a repository on github, you can choose to make your repository public or not; this is your preference. Following the assessment steps below will set up your folder and repository that is required to complete this course. When you have finish the course you will send your repository url for verification and to receive your certificate of completion.</p>
 <h2>Steps</h2>
     <p>1. Create a folder named “IGG-yourname” on your computer. </p>
     <p>2. Open the new folder, right click any white space in the folder and select “git bash here”. </p>
-    <p>3. Create the README.md file by typing "echo > READEME.md", copy the following texted in to the README file and save.</p>
-<p>
-    “Introduction to Git & Github: Your name here
+    <p>3. Create the README.md file by typing "echo > READEME.md", copy the following texted in to the README file and save. You can place your texted within html tags such as h1, p and b to style up your readme files.</p>
+<p>“Introduction to Git & Github: Your name here
     This candidate repository has been set up to store the assessment materials for completing the IGG course.
-
     Candidate Name:  Your name here
     Course starting Date: The date you start this course
-
     Course Layout
-
         1.	Module One: What Git is & Setting Git Up
         2.	Module Two: Workflow & Staging
         3.	Module Three: Git Status & Gitignore file
@@ -44,9 +36,8 @@
         6.	Module Six: History Error Assessment
         7.	Module Seven: Pull, Edit, Push Assessment
         8.	Module Eight: Repository Security
-
         By this readme being setup and here stats that the Module One Assessment was followed and completed”
-</p>
+    </p>
     <p>4. Type "git init": The git init command initializes a new default empty git repository.</p>
     <p>5. Now type "git config --global user.name "yourname" " this is setting the workspace/folder with a git user name.</p> 
     <p>6. Now type "git config --global user.email "youremail@gmail.com" this is setting the workspace/folder with a git user email.</p>
@@ -68,10 +59,7 @@
         <h3>Module Brief:</h3>
         <p>You are required to create a folder named “ModuleTwo” inside your IGG folder with a “README.md”, remebering to cd in to the new folder to create the readme file. You are then asked to write an essay based on the three states of git within your README.md file in your new ModuleTwo folder.</p>
         <p>Once you are finished your essay please push it to your IGG repository, remember to add, commit and have a good comment on the commit.</p>
-        
 
-            
-            
 <h1>Module Three: Git Status & Gitignore file</h1>
     <h2>Status</h2>
         <p>The git status command is one of the most used commands as it allows you to view the stage of the files you are working on, such as Mfile.txt are modified or Dfile.txt means file has been deleted.</p>
@@ -131,12 +119,7 @@ Being able to undo your last changes is always helpful and can be carried out by
             <p>git rm filename is used to remove files or changes that are in the staging area.</p>
             <p>git rm --chached filename will remove the file from the staging
             area only, this may need -r after rm for folders.</p>
-        
-
-
-        
-            
-            
+                    
 <h1>Module Five: Push, Merge, Pull & Fetch</h1>
     <h2>Push</h2>
         <p>Description: The git push command is used to upload local repository content to a remote repository. The git push command can be seen as a syncing command and a fetch and pull can be seen as a download command.</p>
@@ -173,41 +156,30 @@ Being able to undo your last changes is always helpful and can be carried out by
         <p>7.	Open the readme file in your text editor again and place this texted inside “This is an edit to show that Module Five has been completed successfully.”</p>
         <p>8.	Type “git add *”, “git commit –m “Module Five Complete”, “git push –u origin master” ”</p>
       
-   
-
-
-<h1>Module Six:  History Error Assessment</h1>
+<h1>Module Six: History Error Assessment</h1>
     <h2>Catalyst: </h2> 
         <p>This problem accords mainly when an text editor is used to commit and the a command line is used to push or pull, the switch between the compiler/text editor to the command line seems to cause a history lag and then a committing error.</p>
     <h2>Rendering Steps</h2>
         <p>1. The first step to render this error was to check that my remote master was up to date, it was not so I then try pushing my master branch.</p>
         <p>2. This failed and it was found that pulling the master and replacing it with the local branch would render the error and refresh the history, this would mean taking a copy of the last updated file and restoring the last master branch to the local.</p>
         <p>3.The last step was to push the updated master branch on the local to the remote master. Once this was completed and checked online (remote) merge the main with the master and all commit history errors where rendered</p>
-    
-
-<h2>Assessment Brief</h2>
+    <h2>Assessment Brief</h2>
     <p>You are required to create a folder named "ModuleSix" and create a readme file within it. This assessment is based on a git main (default) branch and a master branch, where the master branch has a history of three commits more than the main branch and the main branch has a change that was not committed.</p>
     <p> You are asked to type out the commands used to render this error in your README.md file. Without setting the scenario up; follow the rendering log that has been given below with a command example that hints at how many steps there are.</p>
     <p>Your README file will be viewed and assessed for your mark.</p>
-
-<h2>Example of readme notes that are required.</h2>
-
-<h2>Task Command Path</h2>
+    <h2>Example of readme notes that are required.</h2>
+    <h2>Task Command Path</h2>
     <p>1. git command</p>
     <p>2. git command</p>
     <p>3. git command</p>
     <p>4. git command</p>
         
-
- 
-
 <h1>Module Seven: Pull, Edit, Push Assessment</h1>
     <h2>Assessment Brief</h2>
     <p>For this assessment you will need to create a new repository named ModuleSevenPull, you are then required to pull this repository (https://github.com/Alexander-Milligan/ModuleSevenPull.git)in to your new repository and edit the ModuleSevenREADME.md file to say “Hello Module Seven after being pulled and edited”. Save the file in a new ModuleSeven folder in your IGG folder and add, commit and push the folder and file to your repository.</p>
     <p></p>
 
-<h1>Module Eight:  Repository Security</h1>
-    <h2>Assessment Brief</h2>
+<h1>Module Eight: Repository Security</h1>
     <p>There are a number of security features that github has for repository’s, in this module you will learn about the first two features, secret scanning and code scanning. There are five main option/features in github for repository security and it is very helpful to know of them all.</p>
     <h2>Secret Scanning</h2>
         <p>Github has an inbuilt secret scanning feature where github will check for any secrete key or sensitive documents may have been uploaded by mistake. You can enable this feature within the security area of github. </p>
@@ -220,7 +192,8 @@ Being able to undo your last changes is always helpful and can be carried out by
 <h1>Course Conclusion </h2>
     <p>Once you have finish Module Eight you have finish the course and are asked to follow the course completion steps below. Thank you very much for following this course.</p>
     <b><p>Congratulation & Well Done</p></b>
-<h1>Course Completion Steps</h2>
-    <p>Once all modules have been completed please send your github repository url to SaltireCourses@gmail.com, where your course will be evaluated and marked. You one be contacted within two weeks of sending your course link and you will get your certificate of completion as well.</p>
 
+<h1>Course Completion Steps</h2>
+    <p>Once all modules have been completed please send your github repository url to SaltireCourses@gmail.com, where your course will be evaluated and marked. You will be contacted within two weeks of sending your course link and you will get your certificate of completion.</p>
+    
 </div>
