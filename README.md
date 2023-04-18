@@ -1,9 +1,4 @@
 
-<div class="header">
-    <div class="logo">
-        <img src="Logo.png"/>
-    </div>
-</div>
 <div class="container">
 
 <h1>Course Summary</h1>
