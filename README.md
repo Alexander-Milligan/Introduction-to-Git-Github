@@ -11,14 +11,14 @@
 <p>The course will teach and run the user through using git commands to push, pull, merge, fetch, add, commit and get the status of the stage the files/folders are in at that point. The course has been referenced from Traversy Media, programmingwithmosh and overlaid with a github learning lab beginner’s course.</p>
 
 <h1>Module One: What Git is & Setting Git Up</h1>
-<p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed/developed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
+<p>Git is a Version Control System (VCS) that allows computer files to be tracked when changed, git operates on a tree system where the user can create branches of the main branch. This allows clients to work within a grouped project folder and contribute changes to that project on single branches that are separate to the main/master branch.</p>
 <p>The staging area (git add) is where git’s power lies as all members of the project can discussed the branch that is to be merges with the main branch beforehand, which adds an extra level of error checking before any merge happens.</p>
 <p>Git was created in 2005 by Linus Torvalds and Junio C Hamano, Linus Torvalds also created Linux and the Linux kernel, git does not have any specific coding language so is extremely coder friendly, hence why half the world’s companies are using it to create their projects.</p>
 <h2>Installation Requirement</h2>
 <p>In this module you will be required to setup a working environment that entails installation of git, git bash and a github account; along with a text editor of your choice.</p>
 <h2>Module One Assessment: Course Folder Setup</h2>
 <h3>Assessment Brief</h3>
-<p>You are required to follow the steps below to create a repository on github, you can choose to make your repository public or not; this is your preference. Following the assessment steps below will set up your folder and repository that is required to complete this course. When you have finish the course you will send your repository url for verification and to receive your certificate of completion.</p>
+<p>You are required to follow the steps below to create a repository on github, you can choose to make your repository public or not; this is your preference. Following the assessment steps below will set up your folder and repository that is required to complete this course. When you have finish the course you will send your repository url for verification and receive your certificate of completion.</p>
 <h2>Steps</h2>
     <p>1. Create a folder named “IGG-yourname” on your computer. </p>
     <p>2. Open the new folder, right click any white space in the folder and select “git bash here”. </p>
@@ -41,7 +41,7 @@
     <p>4. Type "git init": The git init command initializes a new default empty git repository.</p>
     <p>5. Now type "git config --global user.name "yourname" " this is setting the workspace/folder with a git user name.</p> 
     <p>6. Now type "git config --global user.email "youremail@gmail.com" this is setting the workspace/folder with a git user email.</p>
-    <p>7. Type "git add" and your file's name or git add *: The git add command adds the changes that have been done in the working directory stages them ready for a commit.</p>
+    <p>7. Type "git add" and your file's name or git add *: The git add command adds the changes that have been completed in the working directory stages, then they are ready for a commit.</p>
     <p>8. Type "git commit -m "Module One Course Folder Set up" will commit all the files that are in the staging area ready to be pushed.</p>
     <p>9. Login to your github account and create a new repository named “IGG-yournamehere”, please do not follow the steps that come up after creating the repository as this creates a branch that is not needed for this course.</p>
     <p>10. Type git remote add origin URL -of - IGG-yourname Repo</p>
@@ -51,13 +51,13 @@
 <h1>Module Two: Workflow & Staging</h1>
     <h2>Non-linear Workflow</h2>
         <p>A git workflow is a suggestion/recipe for how a team will use Git to achieve working on a project in a consistent way with more functionality and productivity. </p>
-        <p>With the option of creating single branches for individuals to work on the main project and then discuss gives any project that is carried out in git is instantly given an error checking and development stage before any merges to the master project.</p>
+        <p>With the option of creating single branches for individuals to work on the main project, gives any project that is carried out in git is instantly given an error checking and development stage before any merges to the master project.</p>
     <h2>Staging</h2>
-        <p>The staging area is the where files are placed ready to be committed and allows the developer to keep editing the files staged; this allows freedom of development on two layers, the developers work area and the branch (group discussion development) before the main merge.  </p>
-        <p>The main command to stage a file is "git add filename" this will place the file and any changes in to the staging area. Once the files are in the staging area you can then commit them for every change you make with a comment but it is advised to try and keep your commits to every five changes.</p>
+        <p>The staging area is where files are placed ready to be committed and allows the developer to keep editing the files staged; this allows freedom of development on two layers, the developers work area and the branch (group discussion development) before the main merge. </p>
+        <p>The main command to stage a file is "git add filename" this will place the file and any changes into the staging area. Once the files are in the staging area you can then commit them for every change you make with a comment but it is advised to try and keep your commits to every five changes.</p>
     <h2>Module Two Assessment: Committed. Modified & Staged</h2>
         <h3>Module Brief:</h3>
-        <p>You are required to create a folder named “ModuleTwo” inside your IGG folder with a “README.md”, remebering to cd in to the new folder to create the readme file. You are then asked to write an essay based on the three states of git within your README.md file in your new ModuleTwo folder.</p>
+        <p>You are required to create a folder named “ModuleTwo” inside your IGG folder with a “README.md”, remembering to cd into the new folder to create the readme file. You are then asked to write an essay based on the three states of git within your README.md file in your new ModuleTwo folder.</p>
         <p>Once you are finished your essay please push it to your IGG repository, remember to add, commit and have a good comment on the commit.</p>
 
 <h1>Module Three: Git Status & Gitignore file</h1>
@@ -82,7 +82,7 @@
         <h3>Assessment Brief</h3>
             <p>In this assessment you are required to create a folder within your IGG folder named ModuleThree. In this folder you are asked to create a file named README.md and a file named testignore.txt through the git bash command line. You are then asked to create a gitignore file through the command line and then type the line you need to ignore the testignore.txt in the gitignore file.
             After this is complete add this text to the readme file in your modulethree folder 
-            "If the file testignore is not displayed in this folder or the master folder, assessment three has been followed and completed correcly."
+            "If the file testignore is not displayed in this folder or the master folder, assessment three has been followed and completed correctly."
             and add, commit then push the changes to the remote IGG repository.</p>
             <p>You are required to give a short discription within the ModuleThree folders REDME file of how you completed this assessment.</p>
 
@@ -95,7 +95,7 @@
         <p>4. git config --global difftool.vscode.cmd "code --wait --diff this set git vs code for diff files.</p>
         <p>5. git config --global difftool.vscode.cmd "code --wait --diff $LOACL $REMOTE" = Placeholders for copies of new files.</p>
     <h2>Viewing History</h2>
-        <p>Checking your branch commit history can be very helpful and is used some time to help project to keep moving forward and not double check areas. The git log command is the main default command to view your commit history.</p>
+        <p>Checking your branch commit history can be very helpful and is used sometimes to help project to keep moving forward and not double check areas. The git log command is the main default command to view your commit history.</p>
         <p>1.	Typing git log" will show a history of all the commits on that branch</p>
         <p>2.	Typing git log --online" will show a history of the repository’s online commits</p>
         <p>3.	Typing git show HEAD~1" this is one step back within the commit history</p>
