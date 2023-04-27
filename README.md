@@ -1,5 +1,5 @@
 
-<div class="header">ll
+<div class="header">
     <div class="logo">
         <img src="Logo.png"/>
     </div>
